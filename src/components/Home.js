@@ -17,8 +17,8 @@ const Styles = styled.div`
 }
 
 .profile{
-    margin-top: 20%;
-    width: 70%;
+    margin-top: 30%;
+    width: 80%;
     margin-left: 8%;
 }
 
