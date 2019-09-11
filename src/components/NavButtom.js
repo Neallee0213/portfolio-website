@@ -34,7 +34,7 @@ export const NavButton = () => (
                     <a href={"https://www.linkedin.com/in/hyun-joon-lee"} target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} className="12"></FontAwesomeIcon>
                     </a>
-                    <a href={"https://github.com/Neallee0213/neallee0213"} target="_blank" rel="noopener noreferrer">
+                    <a href={"https://github.com/Neallee0213"} target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithubSquare}></FontAwesomeIcon>
                     </a>
                     </Col>
