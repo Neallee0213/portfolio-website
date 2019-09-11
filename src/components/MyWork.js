@@ -47,6 +47,7 @@ img{
     margin-left:5px;
     margin-top:10px;
     text-align: center;
+    text-decoration: none;
     
 }
 .mw-icon-link p{
