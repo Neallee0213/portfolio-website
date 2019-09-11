@@ -125,11 +125,11 @@ export const MyWork = () => (
 
                             </ul>
                         </div>
-                        <a href={"https://github.com/Neallee0213/Weather-App"} target="_blank" rel="noopener noreferrer">
+                        <a href={"https://github.com/Neallee0213/quote-machine"} target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                             <p>code</p>
                         </a>
-                        <a href={"https://nostalgic-torvalds-12a702.netlify.com"} target="_blank" rel="noopener noreferrer">
+                        <a href={"https://heuristic-haibt-1f8c2d.netlify.com"} target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faPlayCircle}></FontAwesomeIcon>
                             <p>play</p>
                         </a>
