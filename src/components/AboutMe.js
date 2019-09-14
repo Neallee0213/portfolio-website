@@ -138,14 +138,11 @@ export const AboutMe = () => (
                     </ul>
                 </Col>
                 <Col sm={12} lg={3} className="other">
-                    <h3>Library</h3>
+                    <h3>Library & Framework</h3>
                     <ul>
                         <li>React</li>
                         <li>React Spring</li>
                         <li>Jquery</li>
-                    </ul>
-                    <h3>Framework</h3>
-                    <ul>
                         <li>Bootstrap</li>
                     </ul>
 
