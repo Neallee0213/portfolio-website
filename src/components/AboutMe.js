@@ -68,7 +68,10 @@ h3{
     margin-left: 9%;
     color: black;
 }
+.other h3{
+    font-size: 1.4rem;
 
+}
 
 @media (max-width: 991px){
     .front-end,
