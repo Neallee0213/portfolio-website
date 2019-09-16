@@ -162,7 +162,7 @@ export const MyWork = () => (
                                 <li>API</li>
                             </ul>
                         </div>
-                        <a href={"https://github.com/Neallee0213/weather_app_R"} target="_blank" rel="noopener noreferrer">
+                        <a href={"https://github.com/Neallee0213/weather_app_r_16days"} target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                             <p>code</p>
                         </a>
