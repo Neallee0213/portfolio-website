@@ -162,7 +162,7 @@ export const MyWork = () => (
                                 <li>API</li>
                             </ul>
                         </div>
-                        <a href={"https://github.com/Neallee0213/Image-Finder"} target="_blank" rel="noopener noreferrer">
+                        <a href={"https://github.com/Neallee0213/weather_app_R"} target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                             <p>code</p>
                         </a>
@@ -198,7 +198,7 @@ export const MyWork = () => (
                                 <li>API</li>
                             </ul>
                         </div>
-                        <a href={"https://github.com/Neallee0213/Weather-App"} target="_blank" rel="noopener noreferrer">
+                        <a href={"https://github.com/Neallee0213/Image-Finder"} target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                             <p>code</p>
                         </a>
