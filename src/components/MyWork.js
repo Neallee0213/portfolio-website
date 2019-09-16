@@ -159,6 +159,7 @@ export const MyWork = () => (
                             <h5>Weather Application </h5>
                             <ul>
                                 <li>React</li>
+                                <li>Bootstrap</li>
                                 <li>API</li>
                             </ul>
                         </div>
