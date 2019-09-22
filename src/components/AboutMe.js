@@ -67,11 +67,14 @@ h3{
 .other ul{
     margin-left: 9%;
     color: black;
+    
 }
+
 .other h3{
     font-size: 1.4rem;
 
 }
+
 
 @media (max-width: 991px){
     .front-end,
@@ -108,8 +111,8 @@ export const AboutMe = () => (
                 </Col>
             </Row>
 
-            <Row>
-                <Col><span>Hello,</span>
+            <Row className="d-flex justify-content-center">
+                <Col className="col-6"><span>Hello,</span>
                 <p>I am a widely skiled creative with a passion for web developement and technology.
                 I love learning, and want to become the best developer I can be. As a developer, I believe that ideas come first, tools come second - having defined a goal.
                  I will find a way and will persist until I reach it.</p>
@@ -137,16 +140,17 @@ export const AboutMe = () => (
                     <ul>
                         <li>Python</li>
                         <li>PHP</li>
-                        <li>MySQL</li>
+                        {/* <li>MySQL</li> */}
                     </ul>
                 </Col>
                 <Col sm={12} lg={3} className="other">
-                    <h3>Library & Framework</h3>
+                    <h3>Others</h3>
                     <ul>
                         <li>React</li>
                         <li>React Spring</li>
                         <li>Jquery</li>
                         <li>Bootstrap</li>
+                        <li>MySQL</li>
                     </ul>
 
                 </Col>
@@ -160,10 +164,10 @@ export const AboutMe = () => (
                     <h2>Education</h2>
                 </Col>
             </Row>
-            <Row>
+            <Row className="d-flex justify-content-center">
                 <Col>
                     <h4>Diploma Computer Systems Technician</h4>
-                    <p>- Georgebrown College</p>
+                    <p>- George brown College</p>
                 </Col>
             </Row>
             <hr className="hr_light" />

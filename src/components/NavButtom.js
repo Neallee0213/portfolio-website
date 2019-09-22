@@ -14,7 +14,7 @@ const Styles = styled.div`
 }
 .button-row{
     
-    margin-top: 10%;
+    margin-top: 5%;
     margin-bottom: 5%;
     width:100%;
 }

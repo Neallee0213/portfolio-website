@@ -17,13 +17,13 @@ const Styles = styled.div`
 }
 
 .profile{
-    margin-top: 30%;
-    width: 80%;
+    margin-top: 25%;
+    width: 60%;
     margin-left: 8%;
 }
 
 .home-text{
-    margin-top:30%;
+    margin-top:17%;
     
 }
 .home-text h1,
@@ -36,16 +36,16 @@ const Styles = styled.div`
     
 }
 .home-text h1{
-    font-size:9rem;
+    font-size:8rem;
     letter-spacing: 20px;
 }
 .home-text h2{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 200;
     letter-spacing: 6px;
 }
 .home-text  p{
-    font-size: .9rem;
+    font-size: .7rem;
     font-weight: 100;
     letter-spacing:10px;
 }
@@ -114,7 +114,7 @@ export const Home = () => (
   
     <Styles>
         <Layout>
-        <Container fluid>
+        <Container fluid >
             <Row className="home-row">
                 <Col className="home-img" lg={6}>
                     <img className="profile fluid" src={profile} alt={"profile"} />

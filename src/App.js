@@ -13,9 +13,9 @@ const App = () => {
   const { location } = useContext(__RouterContext);
 
   const transitions = useTransition(location, location => location.pathname, {
-    from: { opacity: 0, transform: "translate(100%, 0)" },
-    enter: { opacity: 1, transform: "translate(0%, 0)" },
-    leave: { opacity: 0, transform: "translate(-50%, 0)" }
+    from: { opacity: 0, transform: 'translate3d(0,150px,0)' },
+    enter: { opacity: 1, transform: 'translate3d(0,0px,0)' },
+    leave: { opacity: 0, transform: 'translate3d(0,80px,0)' }
 
   });
   return (
