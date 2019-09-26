@@ -144,10 +144,9 @@ export const AboutMe = () => (
                     </ul>
                 </Col>
                 <Col sm={12} lg={3} className="other">
-                    <h3>Others</h3>
+                    <h3>Frame Works</h3>
                     <ul>
-                        <li>React</li>
-                        <li>React Spring</li>
+                        <li>ReactJS</li>
                         <li>Jquery</li>
                         <li>Bootstrap</li>
                         <li>MySQL</li>
