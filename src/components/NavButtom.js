@@ -38,6 +38,7 @@ export const NavButton = () => (
                     </a>
                     <a href={Resume} target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faFile}></FontAwesomeIcon>
+
                     </a>
                     <a href={"https://github.com/Neallee0213"} target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithubSquare}></FontAwesomeIcon>

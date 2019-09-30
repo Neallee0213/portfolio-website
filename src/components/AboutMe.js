@@ -41,15 +41,16 @@ h3{
     margin-bottom: 2%;
 }
 .skills{
-    margin-top: 10%;
+    margin-top: 5%;
 }
-// .skills_row{
-//     margin-left:12%;
-// }
 .education{
-    margin-top: 10%;
-    
+    margin-top: 5%;
 }
+.education .row{
+    
+    padding: 25px;
+}
+
 
 .hr_light{
     background-color : white;
@@ -73,6 +74,9 @@ h3{
 .other h3{
     font-size: 1.4rem;
 
+}
+.school h5{
+    float: right;
 }
 
 
@@ -157,16 +161,19 @@ export const AboutMe = () => (
             </Row>
             <hr className="hr_light" />
         </Container>
-        <Container className="education">
+        <Container className="education ">
             <Row>
                 <Col>
                     <h2>Education</h2>
                 </Col>
             </Row>
-            <Row className="d-flex justify-content-center">
+            <Row className="school">
                 <Col>
-                    <h4>Diploma Computer Systems Technician</h4>
-                    <p>- George brown College</p>
+                    <h4>George brown College, Toronto, ON</h4>
+                    <p>Diploma, Computer Systems Technician</p>
+                </Col>
+                <Col>
+                    <h5>Aug 2019</h5>
                 </Col>
             </Row>
             <hr className="hr_light" />
