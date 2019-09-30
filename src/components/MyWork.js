@@ -132,7 +132,7 @@ export const MyWork = () => (
                         </a>
                         <a href={"https://quote-generator-neal-hj-lee.netlify.com"} target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faPlayCircle}></FontAwesomeIcon>
-                            <p>play</p>
+                            <p>demo</p>
                         </a>
 
                     </Col>
@@ -169,7 +169,7 @@ export const MyWork = () => (
                         </a>
                         <a href={"https://weather-neal-hj-lee.netlify.com"} target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faPlayCircle}></FontAwesomeIcon>
-                            <p>play</p>
+                            <p>demo</p>
                         </a>
 
                     </Col>
@@ -205,7 +205,7 @@ export const MyWork = () => (
                         </a>
                         <a href={"https://image-finder-neal-hj-lee.netlify.com"} target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faPlayCircle}></FontAwesomeIcon>
-                            <p>play</p>
+                            <p>demo</p>
                         </a>
 
                     </Col>
