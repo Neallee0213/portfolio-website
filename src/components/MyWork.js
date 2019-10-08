@@ -6,10 +6,10 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faPlayCircle } from "@fortawesome/free-regular-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Layout } from "./Layout"
-import main_twitter from "../assets/imgs/quoteMachine/main_twitter.png"
-import main1 from "../assets/imgs/quoteMachine/main1.png"
-import quote_all from "../assets/imgs/quoteMachine/quote_all.gif"
-import in_twitter from "../assets/imgs/quoteMachine/in_twitter.png"
+import main1 from "../assets/imgs/chatApp/main1.png"
+import main2 from "../assets/imgs/chatApp/main2.png"
+import chat_all from "../assets/imgs/chatApp/chat_all.gif"
+import chat from "../assets/imgs/chatApp//chat.png"
 import weather_main from "../assets/imgs/weather/weather_main.png"
 import weather_error from "../assets/imgs/weather/weather_error.png"
 import weather_result from "../assets/imgs/weather/weather_result.png"
@@ -81,6 +81,9 @@ img{
 .img_text li{
     font-weight:300;
 }
+.disable p{
+    color:gray;
+}
 @media (max-width: 425px){
     .quote_text,
     .weather_text,
@@ -109,9 +112,9 @@ export const MyWork = () => (
                 <Row>
                     <Col md={9}>
                         <img src={main1} alt={"main1"} fluid />
-                        <img src={main_twitter} alt={"main_twitter"} fluid />
-                        <img src={in_twitter} alt={"in_twitter"} fluid />
-                        <img src={quote_all} alt={"quote_all"} fluid />
+                        <img src={main2} alt={"main_twitter"} fluid />
+                        <img src={chat} alt={"in_twitter"} fluid />
+                        <img src={chat_all} alt={"quote_all"} fluid />
 
                     </Col>
                     <Col className="mw-icon-link" md={3}>
@@ -124,7 +127,7 @@ export const MyWork = () => (
 
                             </ul>
                         </div>
-                        <a href={"https://github.com/Neallee0213/quote-machine"} target="_blank" rel="noopener noreferrer">
+                        <a href={"https://github.com/Neallee0213/quote-machine"} target="_blank" rel="noopener noreferrer" disabled="disabled">
                             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                             <p>code</p>
                         </a>
