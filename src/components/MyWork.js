@@ -116,13 +116,11 @@ export const MyWork = () => (
                     </Col>
                     <Col className="mw-icon-link" md={3}>
                         <div className="quote_text">
-                            <h5>Random Quote Generator</h5>
+                            <h5>Realtime Chat Application</h5>
                             <ul>
                                 <li>React</li>
-                                <li>Meterial-UI</li>
-                                <li>FontAwesome</li>
-                                <li>Bootstrap</li>
-                                <li>API</li>
+                                <li>Express</li>
+                                <li>Node and Socket.IO</li>
 
                             </ul>
                         </div>
