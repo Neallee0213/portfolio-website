@@ -81,8 +81,14 @@ img{
 .img_text li{
     font-weight:300;
 }
+a.disable {
+    pointer-events: none;
+    cursor: default;
+  }
 .disable p{
     color:gray;
+    text-decoration: line-through;
+
 }
 @media (max-width: 425px){
     .quote_text,
@@ -127,7 +133,7 @@ export const MyWork = () => (
 
                             </ul>
                         </div>
-                        <a href={"https://github.com/Neallee0213/quote-machine"} target="_blank" rel="noopener noreferrer" disabled="disabled">
+                        <a href={"https://github.com/Neallee0213/quote-machine"} target="_blank" rel="noopener noreferrer" disabled="disabled" className="disable">
                             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                             <p>code</p>
                         </a>
