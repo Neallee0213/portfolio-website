@@ -168,6 +168,7 @@ export const MyWork = () => (
                                 <li>React</li>
                                 <li>Bootstrap</li>
                                 <li>API</li>
+                                <li>Responsive Web Design</li>
                             </ul>
                         </div>
                         <a href={"https://github.com/Neallee0213/weather_app_r_16days"} target="_blank" rel="noopener noreferrer">
