@@ -130,7 +130,7 @@ export const MyWork = () => (
                             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                             <p>code</p>
                         </a>
-                        <a href={"https://quote-generator-neal-hj-lee.netlify.com"} target="_blank" rel="noopener noreferrer">
+                        <a href={"https://5d9c17d80fd0ed44ad9f8d7a--amazing-payne-eabf66.netlify.com"} target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faPlayCircle}></FontAwesomeIcon>
                             <p>demo</p>
                         </a>
