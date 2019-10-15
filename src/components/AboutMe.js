@@ -154,6 +154,7 @@ export const AboutMe = () => (
                         <li>Jquery</li>
                         <li>Bootstrap</li>
                         <li>MySQL</li>
+                        <li>Git</li>
                     </ul>
 
                 </Col>
