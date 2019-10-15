@@ -145,7 +145,7 @@ export const AboutMe = () => (
                     <ul>
                         <li>Python</li>
                         <li>PHP</li>
-                        <li>Node.JS (learning)</li>
+                        <li>Node.JS (Learning)</li>
                     </ul>
                 </Col>
                 <Col sm={12} lg={3} className="other">
