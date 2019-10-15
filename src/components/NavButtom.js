@@ -15,7 +15,7 @@ const Styles = styled.div`
 .button-row{
     
     margin-top: 5%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     width:100%;
 }
 
@@ -24,8 +24,15 @@ const Styles = styled.div`
     font-size:1.5rem;
     
 }
+.button-col span{
+    display: block;
+    font-size: .7rem;
+    margin-left: -10px;
+}
 
-
+.button-col a:nth-last-child(1) span {
+    margin-left: -5px;
+}
 
 `;
 export const NavButton = () => (
@@ -35,13 +42,15 @@ export const NavButton = () => (
                 <Col className="button-col d-flex justify-content-center">
                     <a href={"https://www.linkedin.com/in/hyun-joon-lee"} target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faLinkedin} className="12"></FontAwesomeIcon>
+                        <span>Linkedin</span>
                     </a>
                     <a href={Resume} target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faFile}></FontAwesomeIcon>
-
+                        <span>Resume</span>
                     </a>
                     <a href={"https://github.com/Neallee0213"} target="_blank" rel="noopener noreferrer">
                         <FontAwesomeIcon icon={faGithubSquare}></FontAwesomeIcon>
+                        <span>Github</span>
                     </a>
                 </Col>
             </Row>

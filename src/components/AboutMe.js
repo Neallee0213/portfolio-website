@@ -136,6 +136,7 @@ export const AboutMe = () => (
                     <ul>
                         <li>HTML&CSS</li>
                         <li>Javascript</li>
+                        <li>React.JS</li>
 
                     </ul>
                 </Col>
@@ -144,13 +145,12 @@ export const AboutMe = () => (
                     <ul>
                         <li>Python</li>
                         <li>PHP</li>
-                        {/* <li>MySQL</li> */}
+                        <li>Node.JS (learning)</li>
                     </ul>
                 </Col>
                 <Col sm={12} lg={3} className="other">
-                    <h3>Frame Works</h3>
+                    <h3>Others</h3>
                     <ul>
-                        <li>ReactJS</li>
                         <li>Jquery</li>
                         <li>Bootstrap</li>
                         <li>MySQL</li>
