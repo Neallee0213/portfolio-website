@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { faGithubSquare, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faFile } from "@fortawesome/free-regular-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Resume from "../assets/docs/Hyun-joon Lee Resume.pdf"
+import Resume from "../assets/docs/Hyunjoon_Lee_resume.pdf"
 
 
 const Styles = styled.div`

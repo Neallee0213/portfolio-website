@@ -108,78 +108,79 @@ export const AboutMe = () => (
 
     <Styles>
         <Layout>
-        <Container className="about_me">
-            <Row>
-                <Col>
-                    <h1>About Me</h1>
-                </Col>
-            </Row>
+            <Container className="about_me">
+                <Row>
+                    <Col>
+                        <h1>About Me</h1>
+                    </Col>
+                </Row>
 
-            <Row className="d-flex justify-content-center">
-                <Col className="col-6"><span>Hello,</span>
-                <p>I am a widely skiled creative with a passion for web developement and technology.
-                I love learning, and want to become the best developer I can be. As a developer, I believe that ideas come first, tools come second - having defined a goal.
+                <Row className="d-flex justify-content-center">
+                    <Col className="col-6"><span>Hello,</span>
+                        <p>I am a widely skiled creative with a passion for web developement and technology.
+                        I love learning, and want to become the best developer I can be. As a developer, I believe that ideas come first, tools come second - having defined a goal.
                  I will find a way and will persist until I reach it.</p>
-                </Col>
-            </Row>
-            <hr className="hr_light" />
-        </Container>
-        <Container className="skills">
-            <Row>
-                <Col>
-                    <h2> Skills</h2>
-                </Col>
-            </Row>
-            <Row className="skills_row d-flex justify-content-between" >
-                <Col sm={6} lg={3} className="front-end ">
-                    <h3>Front-End</h3>
-                    <ul>
-                        <li>HTML&CSS</li>
-                        <li>Javascript</li>
-                        <li>React.JS</li>
+                    </Col>
+                </Row>
+                <hr className="hr_light" />
+            </Container>
+            <Container className="skills">
+                <Row>
+                    <Col>
+                        <h2> Skills</h2>
+                    </Col>
+                </Row>
+                <Row className="skills_row d-flex justify-content-between" >
+                    <Col sm={6} lg={3} className="front-end ">
+                        <h3>Front-End</h3>
+                        <ul>
+                            <li>HTML&CSS</li>
+                            <li>Javascript</li>
 
-                    </ul>
-                </Col>
-                <Col sm={6} lg={3} className="back-end">
-                    <h3>Back-End</h3>
-                    <ul>
-                        <li>Python</li>
-                        <li>PHP</li>
-                        <li>Node.JS (Learning)</li>
-                    </ul>
-                </Col>
-                <Col sm={12} lg={3} className="other">
-                    <h3>Others</h3>
-                    <ul>
-                        <li>Jquery</li>
-                        <li>Bootstrap</li>
-                        <li>MySQL</li>
-                        <li>Git</li>
-                    </ul>
 
-                </Col>
+                        </ul>
+                    </Col>
+                    <Col sm={6} lg={3} className="back-end">
+                        <h3>Back-End</h3>
+                        <ul>
+                            <li>Python</li>
+                            <li>PHP</li>
+                            <li>Node.JS (Learning)</li>
+                        </ul>
+                    </Col>
+                    <Col sm={12} lg={3} className="other">
+                        <h3>Others</h3>
+                        <ul>
+                            <li>Jquery</li>
+                            <li>Bootstrap</li>
+                            <li>React.JS</li>
+                            <li>MySQL</li>
+                            <li>Git</li>
+                        </ul>
 
-            </Row>
-            <hr className="hr_light" />
-        </Container>
-        <Container className="education ">
-            <Row>
-                <Col>
-                    <h2>Education</h2>
-                </Col>
-            </Row>
-            <Row className="school">
-                <Col>
-                    <h4>George brown College, Toronto, ON</h4>
-                    <p>Diploma, Computer Systems Technician</p>
-                </Col>
-                <Col>
-                    <h5>Aug 2019</h5>
-                </Col>
-            </Row>
-            <hr className="hr_light" />
-        </Container>
-        <NavButton />
+                    </Col>
+
+                </Row>
+                <hr className="hr_light" />
+            </Container>
+            <Container className="education ">
+                <Row>
+                    <Col>
+                        <h2>Education</h2>
+                    </Col>
+                </Row>
+                <Row className="school">
+                    <Col>
+                        <h4>George brown College, Toronto, ON</h4>
+                        <p>Diploma, Computer Systems Technician</p>
+                    </Col>
+                    <Col>
+                        <h5>Aug 2019</h5>
+                    </Col>
+                </Row>
+                <hr className="hr_light" />
+            </Container>
+            <NavButton />
         </Layout>
     </Styles>
 

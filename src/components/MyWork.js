@@ -21,11 +21,11 @@ import img_all from "../assets/imgs/ImageFinder/img_all.gif"
 import findaplace_home from "../assets/imgs/findaplace/findaplace_home.png"
 import findaplace_places from "../assets/imgs/findaplace/findaplace_places.png"
 import findaplace_contact from "../assets/imgs/findaplace/findaplace_contact.png"
-import findaplace from "../assets/imgs/findaplace/findaplace.gif"
+// import findaplace from "../assets/imgs/findaplace/findaplace.gif"
 import nsbike_main from "../assets/imgs/nsbike/nsbike_main.png"
 import nsbike_products from "../assets/imgs/nsbike/nsbike_products.png"
 import nsbike_cart from "../assets/imgs/nsbike/nsbike_cart.png"
-import nsbike from "../assets/imgs/nsbike/nsbike.gif"
+// import nsbike from "../assets/imgs/nsbike/nsbike.gif"
 
 
 
@@ -277,7 +277,7 @@ export const MyWork = () => (
                             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                             <p>code</p>
                         </a>
-                        <a href={"https://weather-neal-hj-lee.netlify.com"} target="_blank" rel="noopener noreferrer">
+                        <a href={"https://weather-16day.netlify.com"} target="_blank" rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faPlayCircle}></FontAwesomeIcon>
                             <p>demo</p>
                         </a>
