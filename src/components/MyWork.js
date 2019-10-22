@@ -155,7 +155,7 @@ export const MyWork = () => (
 
                             </ul>
                         </div>
-                        <a href={"https://github.com/Neallee0213/findaplace"} target="_blank" rel="noopener noreferrer">
+                        <a href={"https://github.com/Neallee0213/findaplace"} target="_blank" rel="noopener noreferrer" disabled="disabled" className="disabled">
                             <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
                             <p>code</p>
                         </a>
@@ -325,8 +325,8 @@ export const MyWork = () => (
                 </Row>
             </Container>
             <NavButton />
-        </Layout>
-    </Styles>
+        </Layout >
+    </Styles >
 
 )
 
