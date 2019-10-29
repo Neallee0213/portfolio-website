@@ -21,11 +21,9 @@ import img_all from "../assets/imgs/ImageFinder/img_all.gif"
 import findaplace_home from "../assets/imgs/findaplace/findaplace_home.png"
 import findaplace_places from "../assets/imgs/findaplace/findaplace_places.png"
 import findaplace_contact from "../assets/imgs/findaplace/findaplace_contact.png"
-// import findaplace from "../assets/imgs/findaplace/findaplace.gif"
 import nsbike_main from "../assets/imgs/nsbike/nsbike_main.png"
 import nsbike_products from "../assets/imgs/nsbike/nsbike_products.png"
 import nsbike_cart from "../assets/imgs/nsbike/nsbike_cart.png"
-// import nsbike from "../assets/imgs/nsbike/nsbike.gif"
 
 
 
@@ -168,7 +166,6 @@ export const MyWork = () => (
                 </Row>
                 <Row>
                     <Col className="mywk">
-                        <h1>My work</h1>
                     </Col>
                 </Row>
                 <Row>
@@ -194,8 +191,6 @@ export const MyWork = () => (
                                 <li>Context API</li>
                                 <li>Google API(No Key)</li>
                                 <li>Styled-components</li>
-
-
                             </ul>
                         </div>
                         <a href={"https://github.com/Neallee0213/N-s-Bike"} target="_blank" rel="noopener noreferrer">
@@ -211,7 +206,6 @@ export const MyWork = () => (
                 </Row>
                 <Row>
                     <Col className="mywk">
-                        <h1>My work</h1>
                     </Col>
                 </Row>
                 <Row>

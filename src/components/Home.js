@@ -111,25 +111,25 @@ const Styles = styled.div`
 
 `;
 export const Home = () => (
-  
+
     <Styles>
         <Layout>
-        <Container fluid >
-            <Row className="home-row">
-                <Col className="home-img" lg={6}>
-                    <img className="profile fluid" src={profile} alt={"profile"} />
-                </Col>
-                <Col className="home-text" lg={6}>
-                    <h1>Hello,</h1>
-                    <h2>My name is Hyun joon Lee</h2>
-                    <p>Web developer</p>
-                    <hr className="hr-home" />
-                </Col>
-            </Row>
-        </Container>
-        <NavButton />
+            <Container fluid >
+                <Row className="home-row">
+                    <Col className="home-img" lg={6}>
+                        <img className="profile fluid" src={profile} alt={"profile"} />
+                    </Col>
+                    <Col className="home-text" lg={6}>
+                        <h1>Hello,</h1>
+                        <h2>My name is Hyun joon Lee</h2>
+                        <p>Web developer</p>
+                        <hr className="hr-home" />
+                    </Col>
+                </Row>
+            </Container>
+            <NavButton />
         </Layout>
     </Styles>
- 
+
 )
 
