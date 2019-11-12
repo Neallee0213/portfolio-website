@@ -6,10 +6,6 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faPlayCircle } from "@fortawesome/free-regular-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Layout } from "./Layout"
-import main1 from "../assets/imgs/chatApp/main1.png"
-import main2 from "../assets/imgs/chatApp/main2.png"
-import chat_all from "../assets/imgs/chatApp/chat_all.gif"
-import chat from "../assets/imgs/chatApp//chat.png"
 import weather_main from "../assets/imgs/weather/weather_main.png"
 import weather_error from "../assets/imgs/weather/weather_error.png"
 import weather_result from "../assets/imgs/weather/weather_result.png"
@@ -162,7 +158,7 @@ export const MyWork = () => (
                             <ul>
                                 <li>HTML&SCSS</li>
                                 <li>React & Redux</li>
-                                <li>stripe (payment)</li>
+                                <li>Stripe (payment)</li>
                                 <li>Firebase</li>
                                 <li>Styled-components</li>
 

@@ -59,6 +59,7 @@ h3{
 .front-end,
 .back-end,
 .other{
+    border-radius:10px;
     box-shadow: 18px 29px 36px 16px rgba(0,0,0,0.75);
     background-color: rgb(233, 233, 235);
 }
