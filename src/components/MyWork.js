@@ -24,6 +24,10 @@ import findaplace_contact from "../assets/imgs/findaplace/findaplace_contact.png
 import nsbike_main from "../assets/imgs/nsbike/nsbike_main.png"
 import nsbike_products from "../assets/imgs/nsbike/nsbike_products.png"
 import nsbike_cart from "../assets/imgs/nsbike/nsbike_cart.png"
+import nsApparel1 from '../assets/imgs/nsApparel/nsApparel1.webp'
+import nsApparel2 from '../assets/imgs/nsApparel/nsApparel2.webp'
+import nsApparel3 from '../assets/imgs/nsApparel/nsApparel3.webp'
+import nsApparelTall from '../assets/imgs/nsApparel/nsApparelTall.webp'
 
 
 
@@ -44,7 +48,6 @@ const Styles = styled.div`
 img{
     width:40%;
     margin:5px;
-    
 }
 
 .mw-icon-link a{
@@ -59,7 +62,7 @@ img{
 }
 .mw-icon-link p{
     font-size: 10px;
-    color white;
+    color: white;
 }
 .hr-breaker{
     margin-top:5%;
@@ -88,14 +91,23 @@ img{
 .img_text li{
     font-weight:300;
 }
+.mmt-05{
+    margin-top: 1rem;
+}
 .mmt-1{
     margin-top: -5%;
 }
+.mmt-4{
+    margin-top:-43%;
+}
 .mmt-5{
-    margin-top:-44.5%;
+    margin-top:-44%;
 }
 .mmt-6{
     margin-top:-70%;
+}
+.mmt-9{
+    margin-top:-86%;
 }
 a.disable {
     pointer-events: none;
@@ -136,10 +148,48 @@ export const MyWork = () => (
                 </Row>
                 <Row>
                     <Col md={9}>
+                        <img src={nsApparelTall} alt="nsbike_products" fluid className="" />
+                        <img src={nsApparel3} alt="nsbike_cart" fluid className="mmt-4" />
+                        <img src={nsApparel2} alt="nsbike_cart" fluid />
+                        <img src={nsApparel1} alt="nsbike_home" fluid className="mmt-9" />
+
+
+
+                    </Col>
+                    <Col className="mw-icon-link" md={3}>
+                        <div className="quote_text">
+                            <h5>NS apparel</h5>
+                            <ul>
+                                <li>HTML&SCSS</li>
+                                <li>React & Redux</li>
+                                <li>stripe (payment)</li>
+                                <li>Firebase</li>
+                                <li>Styled-components</li>
+
+                            </ul>
+                        </div>
+                        <a href={"https://github.com/Neallee0213/NS_apparel"} target="_blank" rel="noopener noreferrer" disabled="disabled" className="disabled">
+                            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
+                            <p>code</p>
+                        </a>
+                        <a href={"https://ns-apparel.herokuapp.com"} target="_blank" rel="noopener noreferrer">
+                            <FontAwesomeIcon icon={faPlayCircle}></FontAwesomeIcon>
+                            <p>demo</p>
+                        </a>
+
+                    </Col>
+                </Row>
+                <Row>
+                    <Col>
+                        <hr className="hr-breaker" />
+                    </Col>
+                </Row>
+                <Row>
+                    <Col md={9}>
                         <img src={findaplace_places} alt="findaplace_places" fluid className="mb-5" />
-                        <img src={findaplace_home} alt="findaplace_home" fluid className="mt-2" />
+                        <img src={findaplace_home} alt="findaplace_home" fluid className="mmt-05" />
                         <img src={findaplace_contact} alt="findaplace_contact" fluid className="mmt-1" />
-                        {/* <img src={findaplace} alt="findaplace" fluid /> */}
+
 
                     </Col>
                     <Col className="mw-icon-link" md={3}>
@@ -208,42 +258,6 @@ export const MyWork = () => (
                     <Col className="mywk">
                     </Col>
                 </Row>
-                <Row>
-                    <Col>
-                        <hr className="hr-breaker" />
-                    </Col>
-                </Row>
-                <Row>
-                    <Col md={9}>
-                        <img src={main1} alt="main1" fluid />
-                        <img src={main2} alt="main_twitter" fluid />
-                        <img src={chat} alt="in_twitter" fluid />
-                        <img src={chat_all} alt="quote_all" fluid />
-
-                    </Col>
-                    <Col className="mw-icon-link" md={3}>
-                        <div className="quote_text">
-                            <h5>Realtie Chat Application</h5>
-                            <ul>
-                                <li>React</li>
-                                <li>Express</li>
-                                <li>Node and Socket.IO</li>
-
-                            </ul>
-                        </div>
-                        <a href={"https://github.com/Neallee0213/quote-machine"} target="_blank" rel="noopener noreferrer" disabled="disabled" className="disable">
-                            <FontAwesomeIcon icon={faGithub}></FontAwesomeIcon>
-                            <p>code</p>
-                        </a>
-                        <a href={"https://5d9c17d80fd0ed44ad9f8d7a--amazing-payne-eabf66.netlify.com"} target="_blank" rel="noopener noreferrer">
-                            <FontAwesomeIcon icon={faPlayCircle}></FontAwesomeIcon>
-                            <p>demo</p>
-                        </a>
-
-                    </Col>
-                </Row>
-
-
                 <Row>
                     <Col>
                         <hr className="hr-breaker" />
