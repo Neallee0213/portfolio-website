@@ -1,0 +1,31 @@
+.footer{
+    background-color: #2f2f2f;
+    height: 100px;
+    position: absolute;
+       
+    @media screen and (max-width: 576px){
+        // visibility: hidden; 
+    }
+.footer-col{
+    
+    margin-top: 2%;
+    color: white;
+    // padding:22px 0;
+    h1,h5 {
+       text-align: center;     
+         
+    }
+    
+    .github{
+        font-size: 1.5rem;
+        color: white;
+    }
+    .linkedin, .resume{
+        font-size: 2rem;
+        color: white;
+    }
+}
+.footer-icons{
+    text-align: center;
+}
+}

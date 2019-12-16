@@ -1,0 +1,43 @@
+header .header_logo {
+    flex-grow: 1;
+}
+header .header_logo_venue {
+    font-size: 40px;
+}
+
+header .header_logo_title {
+    text-transform: uppercase;
+}
+.lists{
+    margin-top:25%;
+    
+}
+.MuiDrawer-paper {
+    width:300px;
+}
+.MuiListItem-gutters{
+    padding: 50px !important;
+    /* padding-top: 30px !important;
+    padding-bottom: 30px !important; */
+    justify-content: center !important;
+    
+}
+
+header {
+    padding:10px 0px;
+    transition: all 300ms ease-in;
+}
+
+header .header_logo {
+    flex-grow: 1;
+}
+header .header_logo_venue {
+    font-size: 40px;
+}
+
+header .header_logo_title {
+    text-transform: uppercase;
+}
+.nav{
+    width: 30%;
+}

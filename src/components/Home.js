@@ -88,7 +88,7 @@ const Styles = styled.div`
         margin-left:0;
         width: 100%;
     }
-    ~
+    
 }
 @media (max-width: 425px){
     .home-text h1,
