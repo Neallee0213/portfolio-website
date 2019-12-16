@@ -1,7 +1,7 @@
 import React from 'react'
 import styled from "styled-components";
 import Typed from 'react-typed';
-import mountain from '../../assets/imgs/mountain.jpg'
+import mountain from '../../assets/imgs/mountain1.jpg'
 
 const Styled = styled.div`
 height: 100vh;

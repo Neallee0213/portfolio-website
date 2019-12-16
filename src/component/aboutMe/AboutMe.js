@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Slide from 'react-reveal/Slide';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import profile2 from '../../assets/imgs/no_scars.jpg'
+import profile2 from '../../assets/imgs/Profile.jpg'
 import resume from '../../assets/docs/Hyunjoon_Lee_resume.pdf'
 import './AboutMe.scss'
 
