@@ -15,7 +15,7 @@ export class Skills extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="container-fluid">
+                <div className="container-fulid">
                     <div className="row justify-content-center">
                         <Slide left>
                             <div className="col-8 col-md-2 skill">
@@ -51,6 +51,19 @@ export class Skills extends Component {
                             </div>
                         </Slide>
                     </div>
+
+                    {/* <div className="row justify-content-center">
+                        <Slide left>
+                            <div className="col- skill">
+                                <img src={front_end} alt="front_end_icon" className="icons" />
+                                <p className="skill_title">My Education</p>
+                                <p className="line"></p>
+                                <p>George Brown College</p>
+                                <p>Computer tr</p>
+                                <p>React.js</p>
+                            </div>
+                        </Slide>
+                    </div> */}
                 </div>
             </div>
         )

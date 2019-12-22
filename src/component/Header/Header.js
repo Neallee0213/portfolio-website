@@ -60,7 +60,7 @@ class Header extends Component {
                                     style={{
                                         color: this.state.headerShow ? 'black' : 'white'
                                     }}
-                                >Hyunjoon Lee</div>
+                                >HJ Lee</div>
                             </div>
 
                             <IconButton

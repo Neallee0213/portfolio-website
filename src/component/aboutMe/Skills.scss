@@ -12,14 +12,16 @@
     padding: 1em;
     border: 1px solid;
     position: relative;
-    margin: 10px 50px;
+    margin: 10px 40px;
+    background-color: white
+    ;
     
   
     &::before, &::after {
       content: '';
       display: block;
       position: absolute;
-      background: #f8f8f8;
+      background: white;
       
       
     }

@@ -2,8 +2,11 @@ import React from 'react'
 import styled from "styled-components";
 import Typed from 'react-typed';
 import mountain from '../../assets/imgs/mountain1.jpg'
+import video from '../../assets/imgs/video.webm'
 
 const Styled = styled.div`
+/* position:relative; */
+font-family: 'Montserrat', sans-serif;
 height: 100vh;
     .bg{
         background-position:center center;
@@ -75,6 +78,7 @@ height: 100vh;
             font-size: 1rem;      
             letter-spacing:5px;
         }
+        
     }
     @media screen and (max-width: 992px) {
         .bg{
@@ -105,7 +109,21 @@ height: 100vh;
             letter-spacing:5px;
         }
     }
+    
     }
+    /* .bg-video{
+        position:absolute;
+        top:0;
+        left:0;
+        width:100%;
+        height:100%;
+        overflow:hidden;
+        .bg-video__content{    
+            width:100%;
+            height:100%;
+            object-fit:cover;
+        }
+    } */
 `;
 
 const Home = () => {
@@ -114,12 +132,22 @@ const Home = () => {
             <Styled
             // style={{ height: `${window.innerHeight}px` }}
             >
+                {/* <div className="container">
+                    <div className="row">
+                        <div className="bg-video">
+                            <video src={video} className="bg-video__content" autoPlay muted loop>
+                            </video>
+                        </div>
+                    </div>
+                </div> */}
                 <div className="bg"
                     style={{
                         background: `url(${mountain})`,
-                        backgroundSize: 'cover'
+                        backgroundSize: 'cover',
+                        backgroundAttachment: 'fixed'
                     }}
                 >
+
                     <div className="overlay" />
                     <div className="container-fluid">
                         <div className="row justify-content-center">
