@@ -22,6 +22,7 @@ const SideDrawer = (props) => {
             anchor="right"
             open={props.open}
             onClose={() => props.onClose(false)}
+
         >
             <List component="nav">
                 <div className="lists">

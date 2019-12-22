@@ -16,6 +16,7 @@ export class AboutMe extends Component {
                         <div className="row justify-content-around">
                             <div className="col-10 col-md-5 profile">
                                 <img src={profile2} alt="profile2" />
+
                             </div>
                             <div className="col-10 col-md-6 about">
                                 <h4>Web developer</h4>

@@ -1,5 +1,5 @@
 .mywork{
-padding:100px 0;
+padding:100px 20px;
 
 .title{
     padding-bottom: 100px;
@@ -7,119 +7,99 @@ padding:100px 0;
         text-align: center;
         text-transform: uppercase;
     }
+   
     
-}
-        .box{
-            position: relative;
-            width: 100%;
-            display: inline-block;
-            padding:10px
-        }
+} 
+    .box{
+        position: relative;
+        width: 100%;
+        display: inline-block;
+        padding:5px; 
+        
         .imgbox{
+            
             display: block;
             width: 100%;
             box-shadow: 0 10px 10px rgba(0,0,0,0.6);
-        }
+            transition: all .2s;
+            offset: none;
+            
+         }
         .overlay{
+            
             position: absolute;
-            transition: all .3s ease;
+            transition: all .3s linear;
             opacity: 0;
             background-color: rgba(0,0,0,0.8);
+            
+            &:hover{
+                opacity: 1;
+            
+            }
+        
         }
-        .box:hover .overlay{
-            opacity: 1;
+        
+        
+    }
+    .overlayTop{
+
+        width: 98%;
+        height: 0;
+        bottom: 1%;
+        top:2%;
+        left:1%;
+    }
+    .box:hover .overlayTop{
+        height:97%;
+        
+    }
+    
+    
+    .text{
+        color: white;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-size: 20px;
+            
+        
+        h2{
+            text-align: center;
+            font-size: 1.3rem;
+            margin-bottom: 30px;
         }
-        .text{
+        a{
+            text-decoration: none;
+            padding:0 15px;            
+        }
+
+        p{
+            font-size: 1rem;
+            text-transform: uppercase;
             color: white;
-            position: absolute;
-            top:50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            font-size: 20px;
-            h2{
-                text-align: center;
-                font-size: 1.3rem;
-            }
-            a{
-                text-decoration: none;
-              
-            }
-            p{
-                font-size: 1rem;
-                text-transform: uppercase;
-                color: white;
-                display: inline;
-                padding:0 15px;
-                
+            display: inline;
+            padding:5px 15px;
+            border:1px solid white;
+            border-radius: 15px;
+            transition: all .5s ease;
+            &:hover{
+                background-color: white;
+                color: black;
+                border:1px solid black;
             }
         }
-        .overlayLeft{
-            height: 100%;
-            top: 0;
-            width: 0;
-            left:0;
-        }
-        .box:hover .overlayLeft{
-            width:100%;
-        }
-        //  text-align: center;
-         
-        //  .single{
-        //     position: relative;
-        //     cursor: pointer;
-            
-        // }
-        // .box{
-        //     position: relative;
-        //     margin: auto;
-        //     width:350px;
-        //     height:290px;
-        //     transition: .6s;
-        // }
-        // .img{
-            
-        //     background-size: cover;
-        //     background-position: center center;
-        //     position: relative;
-        //     display: flex;
-        //     justify-content: center;
-        //     align-items: center;
-        //     z-index: 1;
-        //     transform: translateY(110px);
-        // }
-        // .single:hover .img{
-        //     transform: translateY(0);
-        // }
-        // .single:hover .img-text{
-        //     transform: translateY(0);
-        // }
-        // .img-text{
-        //     display: flex;
-        //     // justify-content: center;
-        //     align-items: center;
-        //     padding-top:30px;
-        //     padding-bottom: 20px;
-        //     box-sizing: border-box;
-        //     box-shadow: 0 10px 10px rgba(0,0,0,0.6);
-        //     transform: translateY(-180px);
-        //     position: relative;
-            
-        // }
+    }
+    
     .description{
-    padding-top:px;
     
     .name{
         text-align: center;
-    }
-    .lang{
-        span{
-        float: left;
-        padding-left: 10px;
-    }
     }
     .demo_code{
         margin: auto ;
         text-align: center;
     }
     }
+    
 }

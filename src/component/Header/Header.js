@@ -22,7 +22,7 @@ class Header extends Component {
 
 
     handleScroll = () => {
-        if (window.scrollY > 0) {
+        if (window.scrollY > 660) {
             this.setState({
                 headerShow: true
             })
@@ -47,7 +47,8 @@ class Header extends Component {
                     <AppBar
                         position="fixed"
                         style={{
-                            backgroundColor: this.state.headerShow ? '#2f2f2f' : 'transparent',
+                            backgroundColor: this.state.headerShow ? 'white' : 'transparent',
+                            borderBottom: this.state.headerShow ? '1px solid #dadfe1' : 'none',
                             boxShadow: 'none',
                             padding: '10px 0px'
                         }}
@@ -55,10 +56,17 @@ class Header extends Component {
                         <Toolbar >
 
                             <div className="header_logo">
-                                <div className="header_logo_title">Hyunjoon Lee</div>
+                                <div className="header_logo_title"
+                                    style={{
+                                        color: this.state.headerShow ? 'black' : 'white'
+                                    }}
+                                >Hyunjoon Lee</div>
                             </div>
 
                             <IconButton
+                                style={{
+                                    color: this.state.headerShow ? 'black' : 'white'
+                                }}
                                 aria-label="Menu"
                                 color="inherit"
                                 onClick={() => this.toggleDrawer(true)}

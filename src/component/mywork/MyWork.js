@@ -12,24 +12,24 @@ export class MyWork extends Component {
     render() {
         return (
             <div className="mywork">
-                <div className="container">
+                <div className="container-fulid">
                     <div className="row">
                         <div className="col title">
                             <h1>My Portfolio</h1>
                         </div>
                     </div>
                     <Fade bottom>
-                        <div className="row justify-content-center">
+                        <div className="row justify-content-center box_row">
                             <div className=" col-12 col-md-4 box">
                                 <img className="imgbox" src={NSapparel} alt="" />
-                                <div className="overlay overlayLeft">
+                                <div className="overlay overlayTop">
 
                                     <div className="text">
                                         <h2>NS apperel</h2>
-                                        <a href={"https://github.com/Neallee0213/NS_apparel"} target="_blank" rel="noopener noreferrer">
+                                        <a href={"https://github.com/Neallee0213/NS_apparel"} target="_blank" rel="noopener noreferrer" className="links">
                                             <p>code</p>
                                         </a>
-                                        <a href={"https://ns-apparel.herokuapp.com"} target="_blank" rel="noopener noreferrer">
+                                        <a href={"https://ns-apparel.herokuapp.com"} target="_blank" rel="noopener noreferrer" className="links">
                                             <p>demo</p>
                                         </a>
                                     </div>
@@ -38,14 +38,14 @@ export class MyWork extends Component {
 
                             <div className="col-12 col-md-4 box">
                                 <img className="imgbox" src={findaplace} alt="" />
-                                <div className="overlay overlayLeft">
+                                <div className="overlay overlayTop">
 
                                     <div className="text">
                                         <h2>Findaplace</h2>
-                                        <a href={"https://github.com/Neallee0213/findaplace"} target="_blank" rel="noopener noreferrer">
+                                        <a href={"https://github.com/Neallee0213/findaplace"} target="_blank" rel="noopener noreferrer" className="links">
                                             <p>code</p>
                                         </a>
-                                        <a href={"https://findaplace.netlify.com"} target="_blank" rel="noopener noreferrer">
+                                        <a href={"https://findaplace.netlify.com"} target="_blank" rel="noopener noreferrer" className="links">
                                             <p>demo</p>
                                         </a>
                                     </div>
@@ -54,31 +54,33 @@ export class MyWork extends Component {
 
                             <div className="col-12 col-md-4 box">
                                 <img className="imgbox" src={ns_bike} alt="" />
-                                <div className="overlay overlayLeft">
+                                <div className="overlay overlayTop">
 
                                     <div className="text">
                                         <h2>NS Bike</h2>
-                                        <a href={"https://github.com/Neallee0213/N-s-Bike"} target="_blank" rel="noopener noreferrer">
+                                        <a href={"https://github.com/Neallee0213/N-s-Bike"} target="_blank" rel="noopener noreferrer" className="links">
                                             <p>code</p>
                                         </a>
-                                        <a href={"https://nsbike.netlify.com"} target="_blank" rel="noopener noreferrer">
+                                        <a href={"https://nsbike.netlify.com"} target="_blank" rel="noopener noreferrer" className="links">
                                             <p>demo</p>
                                         </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div className="row justify-content-center" style={{ paddingTop: '10px' }}>
+                    </Fade>
+                    <Fade bottom delay={500}>
+                        <div className="row justify-content-center" style={{ paddingTop: '5px' }}>
                             <div className="col-12 col-md-4 box">
                                 <img className="imgbox" src={img} alt="" />
-                                <div className="overlay overlayLeft">
+                                <div className="overlay overlayTop">
 
                                     <div className="text">
                                         <h2>ImageFinder App</h2>
-                                        <a href={"https://github.com/Neallee0213/Image-Finder"} target="_blank" rel="noopener noreferrer">
+                                        <a href={"https://github.com/Neallee0213/Image-Finder"} target="_blank" rel="noopener noreferrer" className="links">
                                             <p>code</p>
                                         </a>
-                                        <a href={"https://image-finder-neal-hj-lee.netlify.com"} target="_blank" rel="noopener noreferrer">
+                                        <a href={"https://image-finder-neal-hj-lee.netlify.com"} target="_blank" rel="noopener noreferrer" className="links">
                                             <p>demo</p>
                                         </a>
                                     </div>
@@ -87,14 +89,14 @@ export class MyWork extends Component {
 
                             <div className="col-12 col-md-4 box">
                                 <img className="imgbox" src={weather} alt="" />
-                                <div className="overlay overlayLeft">
+                                <div className="overlay overlayTop">
 
                                     <div className="text">
                                         <h2>Weather App</h2>
-                                        <a href={"https://github.com/Neallee0213/weather_app_r_16days"} target="_blank" rel="noopener noreferrer">
+                                        <a href={"https://github.com/Neallee0213/weather_app_r_16days"} target="_blank" rel="noopener noreferrer" className="links">
                                             <p>code</p>
                                         </a>
-                                        <a href={"https://weather-16day.netlify.com"} target="_blank" rel="noopener noreferrer">
+                                        <a href={"https://weather-16day.netlify.com"} target="_blank" rel="noopener noreferrer" className="links">
                                             <p>demo</p>
                                         </a>
                                     </div>
