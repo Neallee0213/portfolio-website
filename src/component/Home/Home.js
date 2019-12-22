@@ -6,7 +6,7 @@ import video from '../../assets/imgs/video.webm'
 
 const Styled = styled.div`
 /* position:relative; */
-font-family: 'Montserrat', sans-serif;
+
 height: 100vh;
     .bg{
         background-position:center center;
