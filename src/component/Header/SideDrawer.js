@@ -38,6 +38,11 @@ const SideDrawer = (props) => {
                         My portfolio
                 </ListItem>
 
+
+                    <ListItem classname="nav_list" button onClick={() => scrollToElement('MailMe')}>
+                        Contact me
+                </ListItem>
+
                     {/* <ListItem classname="nav_list" button onClick={() => scrollToElement('pricing')}>
                         Contact me
                 </ListItem>

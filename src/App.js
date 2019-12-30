@@ -8,6 +8,7 @@ import AboutMe from './component/aboutMe/AboutMe';
 import Skills from './component/aboutMe/Skills';
 import Mywork from './component/mywork/MyWork'
 import Footer from './component/Footer/Footer'
+import MailMe from './component/mailMe/MailMe'
 // import VunueNfo from './components/venueNfo';
 // import Pricing from './components/pricing';
 // import Location from './components/location';
@@ -32,13 +33,14 @@ class App extends Component {
           <Mywork />
         </Element>
 
-        <Element name="pricing">
+        <Element name="MailMe">
+          <MailMe />
+        </Element>
+
+        <Element name="Footer">
           <Footer />
         </Element>
 
-        {/* <Element name="location">
-          <Location />
-        </Element> */}
 
         {/* <Footer /> */}
       </div>

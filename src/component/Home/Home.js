@@ -10,6 +10,7 @@ const Styled = styled.div`
 height: 100vh;
     .bg{
         background-position:center center;
+        background-size:cover;
         height: 100vh;
         position: absolute;
         top: 0;
@@ -61,7 +62,7 @@ height: 100vh;
             
         }
         .title-text{
-        padding-top: 65%;
+        padding-top: 20%;
         text-align:center;
         h1{
             font-size:1.5rem;
@@ -83,10 +84,10 @@ height: 100vh;
     }
     @media screen and (max-width: 992px) {
         .bg{
-            height:70%;
+            /* height:70%; */
         }
         .title-text{
-        /* padding-top: 70%; */
+        padding-top: 30%;
         text-align:center;
         h1{
             font-size:3rem;
