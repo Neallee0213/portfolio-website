@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import NSapparel from '../../assets/imgs/pics/ns_apparel.png'
 import findaplace from '../../assets/imgs/pics/findaplace.png'
 import ns_bike from '../../assets/imgs/pics/ns_bike.png'
+import cryptodash from '../../assets/imgs/pics/cryptodash.png'
 import img from '../../assets/imgs/pics/img.png'
 import weather from '../../assets/imgs/pics/weather.png'
 import './MyWork.scss'
@@ -81,6 +82,22 @@ export class MyWork extends Component {
                                             <p>code</p>
                                         </a>
                                         <a href={"https://image-finder-neal-hj-lee.netlify.com"} target="_blank" rel="noopener noreferrer" className="links">
+                                            <p>demo</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div className="col-12 col-md-4 box">
+                                <img className="imgbox" src={cryptodash} alt="" />
+                                <div className="overlay overlayTop">
+
+                                    <div className="text">
+                                        <h2>Cryptocurrency App</h2>
+                                        <a href={"https://github.com/Neallee0213/cryptodash"} target="_blank" rel="noopener noreferrer" className="links">
+                                            <p>code</p>
+                                        </a>
+                                        <a href={"https://confident-elion-a450d6.netlify.com"} target="_blank" rel="noopener noreferrer" className="links">
                                             <p>demo</p>
                                         </a>
                                     </div>

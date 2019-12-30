@@ -61,13 +61,14 @@ height: 100vh;
             
         }
         .title-text{
-        padding-top: 35%;
+        padding-top: 65%;
         text-align:center;
         h1{
             font-size:1.5rem;
             font-weight:900;
             color:white;
         }
+        
         h4{
             color: white;
             font-size: 1rem;
@@ -85,7 +86,7 @@ height: 100vh;
             height:70%;
         }
         .title-text{
-        padding-top: 25%;
+        /* padding-top: 70%; */
         text-align:center;
         h1{
             font-size:3rem;

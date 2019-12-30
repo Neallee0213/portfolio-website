@@ -11,9 +11,17 @@ export class Footer extends Component {
                 <div className="row">
                     <div className="col-12 col-md-6 footer-col"><h5>HYUNJOON LEE</h5></div>
                     <div className="col-12 col-md-6 footer-col footer-icons">
-                        <a href={"https://www.linkedin.com/in/hyun-joon-lee"} target="_blank" rel="noopener noreferrer"><LinkedInIcon className="linkedin" /></a>
-                        <a href={"https://github.com/Neallee0213"} target="_blank" rel="noopener noreferrer"><GitHubIcon className="github" /></a>
-                        <a href={resume} target="_blank" rel="noopener noreferrer"><PortraitIcon className="resume" /></a>
+                        <div className="row justify-content-center">
+                            <div className="col-12 col-md-3">
+                                <a href={"https://www.linkedin.com/in/hyun-joon-lee"} target="_blank" rel="noopener noreferrer"><LinkedInIcon className="linkedin" /><span>LinkedIn</span></a>
+                            </div>
+                            <div className="col-12 col-md-3">
+                                <a href={"https://github.com/Neallee0213"} target="_blank" rel="noopener noreferrer"><GitHubIcon className="github" /><span>GitHub</span></a>
+                            </div>
+                            <div className="col-12 col-md-3">
+                                <a href={resume} target="_blank" rel="noopener noreferrer"><PortraitIcon className="resume" /><span>Resume</span></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

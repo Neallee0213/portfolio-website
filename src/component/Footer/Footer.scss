@@ -1,13 +1,13 @@
 .footer{
     background-color: #2f2f2f;
-    height: 100px;
+    min-height: 100px;
     position: absolute;
        
     @media screen and (max-width: 576px){
         // visibility: hidden; 
     }
 .footer-col{
-    
+    padding: 0 2rem;
     margin-top: 2%;
     color: white;
     // padding:22px 0;
@@ -15,17 +15,23 @@
        text-align: center;     
          
     }
-    
-    .github{
-        font-size: 1.5rem;
-        color: white;
-    }
-    .linkedin, .resume{
+    .github, .linkedin, .resume{
         font-size: 2rem;
         color: white;
+        
     }
 }
 .footer-icons{
+    // display: flex;
     text-align: center;
+    align-items: center;
+    justify-content: center;
+    span{
+        padding: 0 5px;
+        color:white;
+       
+    }
+    
 }
 }
+
