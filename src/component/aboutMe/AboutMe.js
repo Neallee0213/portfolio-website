@@ -19,7 +19,7 @@ export class AboutMe extends Component {
 
                             </div>
                             <div className="col-10 col-md-6 about">
-                                <h4>Web developer</h4>
+                                {/* <h4></h4> */}
                                 <h1>ABOUT ME</h1>
                                 <p>
                                     I am a widely skiled creative with a passion for web developement and technology.
