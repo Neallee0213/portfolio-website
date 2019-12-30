@@ -1,5 +1,5 @@
 .footer{
-    background-color: #2f2f2f;
+    // background-color: #2f2f2f;
     min-height: 100px;
     position: absolute;
        
@@ -9,7 +9,7 @@
 .footer-col{
     padding: 0 2rem;
     margin-top: 2%;
-    color: white;
+    color: black;
     // padding:22px 0;
     h1,h5 {
        text-align: center;     
@@ -17,7 +17,7 @@
     }
     .github, .linkedin, .resume{
         font-size: 2rem;
-        color: white;
+        color: black;
         
     }
 }
@@ -28,7 +28,7 @@
     justify-content: center;
     span{
         padding: 0 5px;
-        color:white;
+        color:black;
        
     }
     

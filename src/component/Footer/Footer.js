@@ -9,8 +9,7 @@ export class Footer extends Component {
         return (
             <div className="container-fluid footer">
                 <div className="row">
-                    <div className="col-12 col-md-6 footer-col"><h5>HYUNJOON LEE</h5></div>
-                    <div className="col-12 col-md-6 footer-col footer-icons">
+                    <div className="col-12 footer-col footer-icons">
                         <div className="row justify-content-center">
                             <div className="col-12 col-md-3">
                                 <a href={"https://www.linkedin.com/in/hyun-joon-lee"} target="_blank" rel="noopener noreferrer"><LinkedInIcon className="linkedin" /><span>LinkedIn</span></a>

@@ -8,13 +8,13 @@ export class Skills extends Component {
     render() {
         return (
             <div className="skills">
-                <div className="container">
+                {/* <div className="container">
                     <div className="row">
                         <div className="col title">
                             <h1>My Skills</h1>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 <div className="container-fulid">
                     <div className="row justify-content-center">
                         <Slide left>

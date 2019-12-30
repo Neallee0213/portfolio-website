@@ -1,10 +1,11 @@
 .main_aboutme{
     
-    .aboutme{
+    
         h1{
             text-transform: uppercase;
+            font-weight: 300;
         }
-    }
+    
     .profile{
         img{
         display: block;
@@ -28,7 +29,10 @@
             h4,h1,p{
                 padding:10px;
             }
-            
+            p{
+                font-size: 1.3rem;
+                font-weight: 300;
+            }
             .links{
                 display: flex;
                 
