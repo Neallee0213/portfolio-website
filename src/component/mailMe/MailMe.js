@@ -17,7 +17,7 @@ const MailMe = () => {
                     </div>
                 </div>
             </Slide>
-            <Slide bottom delay={700}>
+            <Slide bottom delay={600}>
                 <div className="row justify-content-center">
                     <div className="col-10 mail-btn">
                         <a className="btn btn-white" href="mailto:hyunjoon.lee0213@gmail.com" target="_blank">Contact Me</a>
