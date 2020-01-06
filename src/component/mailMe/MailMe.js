@@ -7,7 +7,10 @@ const MailMe = () => {
             <Slide bottom delay={500}>
                 <div className="row justify-content-center">
                     <div className="col-10 mail-text">
-                        <h1>Ready to take the next step and work together?</h1>
+                        <h1>Get In Touch</h1>
+
+                        <p>Have a sweet project in mind or just want to say hi?</p>
+                        <p>Feel free to send me a email!</p>
                         {/* <h1 className="text2">the next step </h1>
                     <h1 className="text3">and work</h1>
                     <h1 className="text4">together?</h1> */}
@@ -21,7 +24,7 @@ const MailMe = () => {
                     </div>
                 </div>
             </Slide>
-        </div>
+        </div >
     )
 }
 

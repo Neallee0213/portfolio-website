@@ -2,7 +2,7 @@ import React from 'react'
 import styled from "styled-components";
 import Typed from 'react-typed';
 import bag from '../../assets/imgs/bag.jpg'
-
+import './Home.scss'
 
 const Styled = styled.div`
 
@@ -132,7 +132,7 @@ height: 100vh;
 const Home = () => {
     return (
         <>
-            <Styled
+            {/* <Styled
             // style={{ height: `${window.innerHeight}px` }}
             >
                 <div className="bg"
@@ -142,7 +142,6 @@ const Home = () => {
                         backgroundAttachment: 'fixed'
                     }}
                 >
-
                     <div className="overlay" />
                     <div className="container-fluid">
                         <div className="row justify-content-center">
@@ -167,7 +166,16 @@ const Home = () => {
 
                     </div>
                 </div>
-            </Styled>
+            </Styled> */}
+            <section>
+                {/* <div className="row"> */}
+
+                <div className="content">
+                    <h2>Hyunjoon Lee</h2>
+                    <p>FRONT END SOFTWARE ENGINEER</p>
+                </div>
+                {/* </div> */}
+            </section>
         </>
     )
 }

@@ -13,7 +13,7 @@ export class MyWork extends Component {
     render() {
         return (
             <div className="mywork section-tours">
-                <div className="container-fluid">
+                <div className="container">
                     {/* <div className="row">
                         <div className="col title">
                             <h1>My Portfolio</h1>
@@ -131,7 +131,6 @@ export class MyWork extends Component {
                         <Fade bottom>
                             <div className="div1 box">
                                 <div className="overlay overlayTop">
-
                                     <div className="text">
                                         <h5>E-commerce website</h5>
                                         <h2>NS apperel</h2>
@@ -189,8 +188,8 @@ export class MyWork extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </Fade>
-                        <Fade bottom delay={500}>
+                            {/* </Fade>
+                        <Fade bottom delay={500}> */}
                             <div className="div5 box">
                                 <div className="overlay overlayTop">
 
