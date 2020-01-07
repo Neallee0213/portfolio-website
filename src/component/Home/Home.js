@@ -1,8 +1,9 @@
 import React from 'react'
 import styled from "styled-components";
-import Typed from 'react-typed';
-import bag from '../../assets/imgs/bag.jpg'
+// import Typed from 'react-typed';
+// import bag from '../../assets/imgs/bag.jpg'
 import './Home.scss'
+import Fade from 'react-reveal/Fade';
 
 const Styled = styled.div`
 
@@ -169,9 +170,10 @@ const Home = () => {
             </Styled> */}
             <section>
                 {/* <div className="row"> */}
-
                 <div className="content">
-                    <h2>Hyunjoon Lee</h2>
+                    <Fade>
+                        <h2>Hyunjoon Lee</h2>
+                    </Fade>
                     <p>FRONT END SOFTWARE ENGINEER</p>
                 </div>
                 {/* </div> */}
