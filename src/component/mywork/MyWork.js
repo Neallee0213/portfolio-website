@@ -134,10 +134,10 @@ export class MyWork extends Component {
                                     <div className="text">
                                         <h5>E-commerce website</h5>
                                         <h2>NS apperel</h2>
-                                        <a href={"https://github.com/Neallee0213/NS_apparel"} target="_blank" rel="noopener noreferrer" className="links">
+                                        <a href={"https://github.com/Neallee0213/NS_store"} target="_blank" rel="noopener noreferrer" className="links">
                                             <p>code</p>
                                         </a>
-                                        <a href={"https://ns-apparel.herokuapp.com"} target="_blank" rel="noopener noreferrer" className="links">
+                                        <a href={"https://ns-apparel.netlify.com/"} target="_blank" rel="noopener noreferrer" className="links">
                                             <p>demo</p>
                                         </a>
                                     </div>
