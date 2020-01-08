@@ -81,8 +81,7 @@ export class MyWork extends Component {
                                     </div>
                                 </div>
                             </div>
-                            {/* </Fade>
-                        <Fade bottom delay={500}> */}
+
                             <div className="div5 box">
                                 <div className="overlay overlayTop">
 
