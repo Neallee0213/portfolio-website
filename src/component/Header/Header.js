@@ -58,17 +58,19 @@ class Header extends Component {
                             <div className="header_logo">
                                 <div className="header_logo_title"
                                     style={{
-                                        color: this.state.headerShow ? 'black' : 'white'
+                                        color: 'black'
+                                        // color: this.state.headerShow ? 'black' : 'black'
                                     }}
                                 >HJ Lee</div>
                             </div>
 
-                            <IconButton
+                            <IconButton id="icon_btn"
                                 style={{
-                                    color: this.state.headerShow ? 'black' : 'white'
+
+                                    // color: this.state.headerShow ? 'black' : 'black'
                                 }}
                                 aria-label="Menu"
-                                color="inherit"
+                                color="black"
                                 onClick={() => this.toggleDrawer(true)}
                             >
                                 <MenuIcon />

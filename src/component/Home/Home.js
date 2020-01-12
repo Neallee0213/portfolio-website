@@ -171,10 +171,12 @@ const Home = () => {
             <section>
                 {/* <div className="row"> */}
                 <div className="content">
-                    <Fade>
+                    <Fade bottom duration={1800}>
                         <h2>Hyunjoon Lee</h2>
                     </Fade>
-                    <p>FRONT END SOFTWARE ENGINEER</p>
+                    <Fade delay={1000}>
+                        <p>FRONT END SOFTWARE ENGINEER</p>
+                    </Fade>
                 </div>
                 {/* </div> */}
             </section>

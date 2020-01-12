@@ -43,3 +43,13 @@ header .header_logo_title {
 .nav{
     width: 30%;
 }
+#icon_btn{
+    color: black;
+    &:focus{
+        outline: none;
+    }
+    &:hover{
+        background: none;
+        
+    }
+}
