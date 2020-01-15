@@ -174,7 +174,7 @@ const Home = () => {
                     <Fade bottom duration={1800}>
                         <h2>Hyunjoon Lee</h2>
                     </Fade>
-                    <Fade delay={1000}>
+                    <Fade delay={800}>
                         <p>FRONT END SOFTWARE ENGINEER</p>
                     </Fade>
                 </div>
