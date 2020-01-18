@@ -69,7 +69,8 @@
         
         }
         &-white::after{
-          background-color: white;
+          background-color: rgb(240, 240, 240);
+          
         }
         &:hover::after{
           transform: scaleX(1.4) scaleY(1.6);
