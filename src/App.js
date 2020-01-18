@@ -33,9 +33,9 @@ class App extends Component {
           <Mywork />
         </Element>
 
-        <Element name="MailMe">
+        {/* <Element name="MailMe">
           <MailMe />
-        </Element>
+        </Element> */}
 
         <Element name="Footer">
           <Footer />
