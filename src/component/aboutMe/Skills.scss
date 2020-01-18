@@ -84,37 +84,69 @@
 // }
 
 .skills{
-  padding-top:10px !important;
+  // padding-top:10px !important;
   padding-bottom:80px !important;
   
-  .skills_row{
-    .skills_col{
-      // border: 1px solid black;
-      margin: 10px 20px;
-      box-shadow: 0 10px 10px rgba(0,0,0,0.15);
-      border-radius: 10px;
-      padding:2px;
-      max-width: 80px !important;
+  // .skills_row{
+  //   .skills_col{
+  //     // border: 1px solid black;
+  //     margin: 10px 20px;
+  //     box-shadow: 0 10px 10px rgba(0,0,0,0.15);
+  //     border-radius: 10px;
+  //     padding:2px;
+  //     max-width: 80px !important;
       
-      // margin: auto;
       
-      p{
-        // width: 50%;
-        padding-top:5px;
-        text-align: center;
-        font-size: .7rem;
-        text-transform: capitalize;
-      }
-      img{
-        width: 70%;
-        margin-left: 15%;
+  //     // margin: auto;
+      
+  //     p{
+  //       // width: 50%;
+  //     margin: auto;
+  //       padding-bottom:3px;
+  //       text-align: center;
+  //       font-size: .7rem;
+  //       text-transform: capitalize;
+  //     }
+  //     img{
+  //       width: 70%;
+  //       margin-left: 15%;
         
        
-      }
-      &:hover{
+  //     }
+  //     &:hover{
         
-      }
-    }
+  //     }
+  //   }
     
+  // }
+}
+.skills_row{
+  // margin:auto;
+  // text-align: center;
+  .skills_col{
+      padding:0;
+      display:flex;
+      justify-content: center;
+      ul{
+          margin:0 auto;
+          // padding:0;
+          li{
+              font-size: 1rem;
+              list-style: none;
+              float: left;
+              margin: 3px 12px;
+              box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+              border-radius: 10px;
+              padding:0 15px;
+              .icon_s{
+                margin-top:-5px;
+                margin-right: 5px;
+                ;
+              }
+            }
+                    @media screen and (max-width: 769px){
+                      li{font-size: .7rem;}
+                    }
+      }
   }
 }

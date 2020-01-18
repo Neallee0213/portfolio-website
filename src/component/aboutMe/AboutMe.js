@@ -28,18 +28,19 @@ export class AboutMe extends Component {
                                     I will find a way and will persist until I reach it.
                         </p>
                                 <div className="links row">
-                                    <div className="col cv">
+                                    <div className="col-lg-6 col-sm-12 cv">
                                         <a href={resume} target="_blank" rel="noopener noreferrer">
                                             <button className="btn1 btnn">Download CV</button>
                                         </a>
                                     </div>
-                                    <div className="col link">
+                                    <div className="col-lg-6 col-sm-12 link">
                                         <a a href={"https://www.linkedin.com/in/hyun-joon-lee"} target="_blank" rel="noopener noreferrer">
                                             <LinkedInIcon style={{ fontSize: "3rem" }} /></a>
                                         <a href={"https://github.com/Neallee0213"} target="_blank" rel="noopener noreferrer">
                                             <GitHubIcon style={{ fontSize: "2.5rem" }} /></a>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
                     </Slide>

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { FiHash } from "react-icons/fi";
 import front_end from '../../assets/imgs/icon/front_end2.png'
 import back_end from '../../assets/imgs/icon/back_end2.png'
 import others from '../../assets/imgs/icon/others2.png'
@@ -22,8 +23,32 @@ import './Skills.scss'
 export class Skills extends Component {
     render() {
         return (
-            <div className="container skills">
-                <div className="row justify-content-center skills_row">
+            <Fade bottom delay={700}>
+                <div className="container skills">
+                    <div className="row justify-content-center skills_row">
+                        <div className="col skills_col">
+                            <ul>
+                                <li><FiHash className="icon_s" />Html&Css</li>
+                                <li><FiHash className="icon_s" />Sass</li>
+                                <li><FiHash className="icon_s" />Javascript</li>
+                                <li><FiHash className="icon_s" />React/Redux</li>
+                                <li><FiHash className="icon_s" />Bootstrap</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="row justify-content-center skills_row">
+                        <div className="col skills_col">
+                            <ul>
+                                <li><FiHash className="icon_s" />Python</li>
+                                <li><FiHash className="icon_s" />Node.js</li>
+                                <li><FiHash className="icon_s" />Php</li>
+                                <li><FiHash className="icon_s" />MongoDB</li>
+                                <li><FiHash className="icon_s" />MySQL</li>
+                                <li><FiHash className="icon_s" />Github</li>
+                            </ul>
+                        </div>
+                    </div>
+                    {/* <div className="row justify-content-center skills_row">
                     <Fade bottom delay={700}>
                         <div className="col-3 col-md-1 skills_col">
                             <img src={html} alt="html" />
@@ -49,10 +74,6 @@ export class Skills extends Component {
                             <img src={react_redux} alt="react_redux" />
                             <p>react/redux</p>
                         </div>
-                        {/* </div>
-                <div className="row justify-content-center skills_row"> */}
-                        {/* </Slide>
-                    <Slide right delay={500}> */}
 
                         <div className="col-3 col-md-1 skills_col">
                             <img src={python} alt="python" />
@@ -80,9 +101,9 @@ export class Skills extends Component {
                         </div>
 
                     </Fade>
+                </div> */}
                 </div>
-            </div>
-
+            </Fade>
 
 
             // <div className="skills">
