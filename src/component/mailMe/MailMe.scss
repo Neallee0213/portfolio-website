@@ -23,6 +23,7 @@
           padding-top:15px;
           margin: 0;
         }
+        
     }
     .mail-btn{
         padding-bottom: 3rem;
@@ -54,6 +55,7 @@
         &-white{
           background-color: white;
           color:black;
+          font-weight: 300;
         }
         &::after{
           content: "";
