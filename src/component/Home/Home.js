@@ -3,6 +3,7 @@ import styled from "styled-components";
 // import Typed from 'react-typed';
 // import bag from '../../assets/imgs/bag.jpg'
 import './Home.scss'
+import main_video from '../../assets/imgs/video.mp4'
 import Fade from 'react-reveal/Fade';
 
 const Styled = styled.div`
@@ -168,8 +169,7 @@ const Home = () => {
                     </div>
                 </div>
             </Styled> */}
-            <section>
-                {/* <div className="row"> */}
+            {/* <section>
                 <div className="content">
                     <Fade bottom duration={1800}>
                         <h2>Hyunjoon Lee</h2>
@@ -178,8 +178,17 @@ const Home = () => {
                         <p>FRONT END SOFTWARE ENGINEER</p>
                     </Fade>
                 </div>
-                {/* </div> */}
-            </section>
+            </section> */}
+
+            <div className="banner">
+                <video src={main_video} autoPlay muted loop></video>
+                <Fade duration={1500}>
+                    <h2>HyunJoon Lee</h2>
+                </Fade>
+                <Fade delay={800}>
+                    <p>FRONT END SOFTWARE ENGINEER</p>
+                </Fade>
+            </div>
         </>
     )
 }
