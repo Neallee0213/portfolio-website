@@ -36,6 +36,8 @@ export class MyWork extends Component {
                                     </div>
                                 </div>
                             </div>
+                        </Fade>
+                        <Fade bottom delay={500}>
                             <div className="div2 box">
                                 <div className="overlay overlayTop">
 
@@ -51,6 +53,8 @@ export class MyWork extends Component {
                                     </div>
                                 </div>
                             </div>
+                        </Fade>
+                        <Fade bottom delay={500}>
                             <div className="div3 box">
                                 <div className="overlay overlayTop">
 
@@ -66,6 +70,8 @@ export class MyWork extends Component {
                                     </div>
                                 </div>
                             </div>
+                        </Fade>
+                        <Fade bottom delay={500}>
                             <div className="div4 box">
                                 <div className="overlay overlayTop">
 
@@ -81,7 +87,8 @@ export class MyWork extends Component {
                                     </div>
                                 </div>
                             </div>
-
+                        </Fade>
+                        <Fade bottom delay={500}>
                             <div className="div5 box">
                                 <div className="overlay overlayTop">
 
@@ -97,6 +104,8 @@ export class MyWork extends Component {
                                     </div>
                                 </div>
                             </div>
+                        </Fade>
+                        <Fade bottom delay={500}>
                             <div className="div6 box">
                                 <div className="overlay overlayTop">
 
