@@ -1,6 +1,6 @@
 .footer{
     // background-color: #2f2f2f;
-    min-height: 100px;
+    min-height: 80px;
     position: absolute;
        
     @media screen and (max-width: 576px){
@@ -37,3 +37,36 @@
 }
 }
 
+.footer_col{
+    justify-content: center;
+    display: flex;
+    
+    
+    
+    li{
+        display: inline-block;
+        
+        a{
+            display: inline-block;
+            text-decoration: none;
+            color:black;
+            font-weight: 300;
+            padding: 10px 15px;
+            
+            letter-spacing: 1px;
+        }
+
+    }
+    .footer_links::after{
+        content: '';
+        display: block;
+        width: 0;
+        height: 1px;
+        background: black;
+        transition: width .3s;
+    }
+    .footer_links:hover::after{
+        width:100%;
+        transition: width .3s;
+    }
+}
