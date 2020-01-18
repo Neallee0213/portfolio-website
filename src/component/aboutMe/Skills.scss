@@ -144,6 +144,10 @@
                 margin-right: 5px;
                 ;
               }
+              &:hover{
+                transform: translateY(-3px);
+                
+              }
             }
                     @media screen and (max-width: 769px){
                       li{font-size: .7rem;}
