@@ -39,7 +39,7 @@ const SideDrawer = (props) => {
                 </ListItem>
 
 
-                    <ListItem classname="nav_list" button onClick={() => scrollToElement('MailMe')}>
+                    <ListItem classname="nav_list" button onClick={() => scrollToElement('Footer')}>
                         Contact me
                 </ListItem>
 
