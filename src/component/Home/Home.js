@@ -182,7 +182,7 @@ const Home = () => {
 
             <div className="banner">
                 <video src={main_video} autoPlay muted loop></video>
-                <Fade duration={1900}>
+                <Fade duration={2500}>
                     <h2>HyunJoon Lee</h2>
                 </Fade>
                 <Fade delay={1200}>
