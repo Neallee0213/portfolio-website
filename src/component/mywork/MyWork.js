@@ -87,8 +87,8 @@ export class MyWork extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </Fade>
-                        <Fade bottom delay={800}>
+                            {/* </Fade>
+                        <Fade bottom delay={800}> */}
                             <div className="div5 box">
                                 <div className="overlay overlayTop">
 
@@ -104,8 +104,8 @@ export class MyWork extends Component {
                                     </div>
                                 </div>
                             </div>
-                        </Fade>
-                        <Fade bottom delay={800}>
+                            {/* </Fade>
+                        <Fade bottom delay={800}> */}
                             <div className="div6 box">
                                 <div className="overlay overlayTop">
 
