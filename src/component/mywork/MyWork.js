@@ -130,7 +130,9 @@ export class MyWork extends Component {
                         </div>
                     </div>
                 </div>
-                <Portfolio filterMatches={this.state.filterMatches} />
+                <Fade delay={500}>
+                    <Portfolio filterMatches={this.state.filterMatches} />
+                </Fade>
             </div>
 
             // <div className="mywork section-tours">

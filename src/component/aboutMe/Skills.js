@@ -1,29 +1,30 @@
 import React, { Component } from 'react'
 import { FiHash } from "react-icons/fi";
-import front_end from '../../assets/imgs/icon/front_end2.png'
-import back_end from '../../assets/imgs/icon/back_end2.png'
-import others from '../../assets/imgs/icon/others2.png'
+import Slide from 'react-reveal/Slide';
+// import front_end from '../../assets/imgs/icon/front_end2.png'
+// import back_end from '../../assets/imgs/icon/back_end2.png'
+// import others from '../../assets/imgs/icon/others2.png'
 
-import python from '../../assets/imgs/logo/python.png'
-import php from '../../assets/imgs/logo/php.png'
-import js from '../../assets/imgs/logo/js.png'
-import html from '../../assets/imgs/logo/html.png'
-import css from '../../assets/imgs/logo/css.png'
-import sass from '../../assets/imgs/logo/sass.png'
-import node from '../../assets/imgs/logo/node.png'
-import react_redux from '../../assets/imgs/logo/react_redux.png'
-import mongodb from '../../assets/imgs/logo/mongodb.png'
-import mysql from '../../assets/imgs/logo/mysql.png'
-import bootstrap from '../../assets/imgs/logo/bootstrap.png'
-import github from '../../assets/imgs/logo/github.png'
+// import python from '../../assets/imgs/logo/python.png'
+// import php from '../../assets/imgs/logo/php.png'
+// import js from '../../assets/imgs/logo/js.png'
+// import html from '../../assets/imgs/logo/html.png'
+// import css from '../../assets/imgs/logo/css.png'
+// import sass from '../../assets/imgs/logo/sass.png'
+// import node from '../../assets/imgs/logo/node.png'
+// import react_redux from '../../assets/imgs/logo/react_redux.png'
+// import mongodb from '../../assets/imgs/logo/mongodb.png'
+// import mysql from '../../assets/imgs/logo/mysql.png'
+// import bootstrap from '../../assets/imgs/logo/bootstrap.png'
+// import github from '../../assets/imgs/logo/github.png'
 
 
-import Fade from 'react-reveal/Fade';
+// import Fade from 'react-reveal/Fade';
 import './Skills.scss'
 export class Skills extends Component {
     render() {
         return (
-            <Fade bottom delay={700}>
+            <Slide right>
                 <div className="container skills">
                     <div className="row justify-content-center skills_row">
                         <div className="col skills_col">
@@ -103,7 +104,7 @@ export class Skills extends Component {
                     </Fade>
                 </div> */}
                 </div>
-            </Fade>
+            </Slide>
 
 
             // <div className="skills">

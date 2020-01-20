@@ -180,15 +180,15 @@ const Home = () => {
                 </div>
             </section> */}
 
-            <div className="banner">
-                <video src={main_video} autoPlay muted loop></video>
-                <Fade duration={2500}>
+            <Fade duration={2500}>
+                <div className="banner">
+                    <video src={main_video} autoPlay muted loop></video>
                     <h2>HyunJoon Lee</h2>
-                </Fade>
-                <Fade delay={1200}>
-                    <p>FRONT END SOFTWARE ENGINEER</p>
-                </Fade>
-            </div>
+                    <Fade delay={1200}>
+                        <p>FRONT END SOFTWARE ENGINEER</p>
+                    </Fade>
+                </div>
+            </Fade>
         </>
     )
 }
