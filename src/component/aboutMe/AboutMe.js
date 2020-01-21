@@ -28,7 +28,7 @@ export class AboutMe extends Component {
                                     I love learning, and want to become the best developer I can be. As a developer, I believe that ideas come first, tools come second - having defined a goal.
                                     I will find a way and will persist until I reach it.
                         </p>
-                                <div className="links row">
+                                <div className="links row justify-content-center">
                                     <div className="col-12 cv">
                                         <a href={resume} target="_blank" rel="noopener noreferrer">
                                             <button className="btn1 btnn">Download CV</button>
