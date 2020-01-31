@@ -184,6 +184,8 @@ const Home = () => {
                 <div className="banner">
                     <video src={main_video} autoPlay muted loop></video>
                     <h2>HyunJoon Lee</h2>
+                    {/* <h2>HyunJoon</h2> */}
+                    {/* <h2>Lee</h2> */}
                     <Fade delay={1200}>
                         <p>FRONT END SOFTWARE ENGINEER</p>
                     </Fade>

@@ -43,13 +43,13 @@ export class Portfolio extends Component {
                         {nodes.map(({ key, data, state: { y, opacity } }) => (
                             <div key={key}
 
-                                className={`div${data.id} box col-md-12 col-lg-5 col-xl-3`}
+                                className={`div${data.id} box col-12`}
                                 style={{
                                     opacity,
                                     transform: `translateY(${y}px)`
                                 }}
                             >
-                                <div className="overlay overlayTop">
+                                <div className="overlay overlayTop content">
                                     <div className="text">
                                         <h5>{data.type}</h5>
                                         <h2>{data.title}</h2>
@@ -64,12 +64,12 @@ export class Portfolio extends Component {
                             </div>
                         ))}
                     </>
-                )}
-            </NodeGroup>
+                )
+                }
+            </NodeGroup >
             : null
     )
     render() {
-        console.log(this.state.projectList);
 
 
         return (

@@ -93,26 +93,27 @@ export class MyWork extends Component {
 
     }
     render() {
-        const myProjects = this.state.filterMatches.map(project => (
+        // const myProjects = this.state.filterMatches.map(project => (
 
 
-            < div className="col" >
-                <div className="overlay overlayTop">
-                    <div className="text">
-                        <h5>{project.type}</h5>
-                        <h2>{project.title}</h2>
-                        <a href={project.code} target="_blank" rel="noopener noreferrer" className="links">
-                            <p>code</p>
-                        </a>
-                        <a href={project.demo} target="_blank" rel="noopener noreferrer" className="links">
-                            <p>demo</p>
-                        </a>
-                    </div>
-                </div>
-            </div >
+        //     < div className="col"
 
-        ))
-        console.log(this.state.filterMatches)
+        //     >
+        //         <div className="overlay overlayTop">
+        //             <div className="text">
+        //                 <h5>{project.type}</h5>
+        //                 <h2>{project.title}</h2>
+        //                 <a href={project.code} target="_blank" rel="noopener noreferrer" className="links">
+        //                     <p>code</p>
+        //                 </a>
+        //                 <a href={project.demo} target="_blank" rel="noopener noreferrer" className="links">
+        //                     <p>demo</p>
+        //                 </a>
+        //             </div>
+        //         </div>
+        //     </div >
+
+        // ))
         return (
             <div className="mywork section-tours">
                 <div className="container">
