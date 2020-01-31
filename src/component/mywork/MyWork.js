@@ -23,7 +23,8 @@ export class MyWork extends Component {
                 "type": "E-commerce",
                 "img": { NSapparel },
                 "demo": "https://ns-apparel.netlify.com/",
-                "code": "https://github.com/Neallee0213/NS_store"
+                "code": "https://github.com/Neallee0213/NS_store",
+                "class": "overlayTop"
 
             },
             {
@@ -32,7 +33,8 @@ export class MyWork extends Component {
                 "type": "E-commerce",
                 "img": { findaplace },
                 "demo": "https://findaplace.netlify.com",
-                "code": "https://github.com/Neallee0213/findaplace"
+                "code": "https://github.com/Neallee0213/findaplace",
+                "class": "overlayBottom"
 
             },
             {
@@ -41,7 +43,8 @@ export class MyWork extends Component {
                 "type": "E-commerce",
                 "img": { ns_bike },
                 "demo": "https://nsbike.netlify.com",
-                "code": "https://github.com/Neallee0213/N-s-Bike"
+                "code": "https://github.com/Neallee0213/N-s-Bike",
+                "class": "overlayTop"
 
             },
             {
@@ -50,7 +53,8 @@ export class MyWork extends Component {
                 "type": "Web Application",
                 "img": { cryptodash },
                 "demo": "https://confident-elion-a450d6.netlify.com",
-                "code": "https://github.com/Neallee0213/cryptodash"
+                "code": "https://github.com/Neallee0213/cryptodash",
+                "class": "overlayBottom"
 
             },
             {
@@ -59,7 +63,8 @@ export class MyWork extends Component {
                 "type": "Web Application",
                 "img": { weather },
                 "demo": "https://weather-16day.netlify.com",
-                "code": "https://github.com/Neallee0213/weather_app_r_16days"
+                "code": "https://github.com/Neallee0213/weather_app_r_16days",
+                "class": "overlayTop"
 
             },
             {
@@ -68,7 +73,8 @@ export class MyWork extends Component {
                 "type": "Web Application",
                 "img": { img },
                 "demo": "https://image-finder-neal-hj-lee.netlify.com",
-                "code": "https://github.com/Neallee0213/Image-Finder"
+                "code": "https://github.com/Neallee0213/Image-Finder",
+                "class": "overlayBottom"
 
             },
         ]
