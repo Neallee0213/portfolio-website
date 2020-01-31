@@ -49,7 +49,6 @@ export class Portfolio extends Component {
                                     transform: `translateY(${y}px)`
                                 }}
                             >
-                                {/* <div className="overlay overlayTop content"> */}
                                 <div className={`overlay constent ${data.class}`}>
                                     <div className="text">
                                         <h5>{data.type}</h5>
